@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.chart-wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    color: #ddd;
+    text-align: center;
+}
+
+.chart-wrap  {
+
+}
+
+#chart svg {
+}
+
+.axis {
+    fill: none;
+    stroke: #333;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    stroke: none;
+    fill: #333;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.grid {
+    shape-rendering: crispEdges;
+}
